@@ -1,5 +1,5 @@
 /***********************************************
-*·µ»Ø¶¥²¿´úÂëµ÷ÓÃ 
+*Â·ÂµÂ»Ã˜Â¶Â¥Â²Â¿Â´ÃºÃ‚Ã«ÂµÃ·Ã“Ãƒ 
 *http://www.scrolltotop.com/
 ***********************************************/
 
@@ -12,7 +12,7 @@ var scrolltotop={
 
     setting: {startline:100, scrollto: 0, scrollduration:1000, fadeduration:[500, 100]},
 
-    controlHTML: '<img src="https://raw.githubusercontent.com/mgtang/img/gh-pages/arrow6.png" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
+    controlHTML: '<img src="http://mgtang.github.io/img/arrow6.png" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
 
     controlattrs: {offsetx:5, offsety:5}, //offset of control relative to right/ bottom of window corner
 
