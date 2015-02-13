@@ -2,7 +2,7 @@ body{margin:0px; font-family:Arial, Sans-Serif; font-size:13px;}a{color:blue;tex
 /* dock */
 #dock{margin:0px; padding:0px; list-style:none; position:fixed; top:0px; height:100%; font-family:"微软雅黑";
 z-index:100; background-color:#ddd; left:0px;}
-#dock > li {width:20px; height:80px; margin: 0 0 2px 0; background-color:#B56EE5;
+#dock > li {width:20px; height:80px; margin: 0 0 2px 0; background-color:#B56EE5;text-align: left;
 background-repeat:no-repeat; background-position:left center;}
 /*  如果不想用图片 可以直接在ul上写入文本
 #dock #links {background-image:url(links.png);}
