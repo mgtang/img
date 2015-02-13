@@ -15,7 +15,7 @@ background-repeat:no-repeat; background-position:left center;}
 /* panels */
 #dock ul li {padding:5px; border: solid 1px #ddd;}
 #dock ul li:hover {background:#D3DAED url(item_bkg.png) repeat-x; border: solid 1px #A8D8EB;}
-#dock ul li.header, #dock ul li .header:hover {background:#D3DAED url(header_bkg.png) repeat-x;border: solid 1px #ddd;}
+#dock ul li.header, #dock ul li .header:hover {background:#DDD url(header_bkg.png) repeat-x;border: solid 1px #ddd;}
 
 #dock > li:hover ul {display:block;}
 #dock > li ul {position:absolute; top:0px; left:-260px; z-index:-1;width:260px; display:none;
