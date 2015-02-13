@@ -1,7 +1,7 @@
 /* dock */
 #dock{margin:0px; padding:0px; list-style:none; position:fixed; top:0px; height:100%; font-family:"微软雅黑";text-align: left;
 z-index:100; background-color:#eee; left:0px;}
-#dock > li {width:15px; height:80px; padding:5px 3px; margin: 0 0 2px 0; background-color:#0F7EB5;
+#dock > li {width:15px;  padding:5px 3px; margin: 0 0 0px 0; background-color:#2d2d2d;
 background-repeat:no-repeat; background-position:left center;}
 /*  如果不想用图片 可以直接在ul上写入文本
 #dock #links {background-image:url(links.png);}
