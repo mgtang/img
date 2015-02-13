@@ -17,7 +17,7 @@ background-repeat:no-repeat; background-position:left center;}
 #dock ul li.header, #dock ul li .header:hover {background:#D3DAED url(header_bkg.png) repeat-x;border: solid 1px #ddd;}
 
 #dock > li:hover ul {display:block;}
-#dock > li ul {position:absolute; top:0px; left:-250px; z-index:-1;width:250px; display:none;
+#dock > li ul {position:absolute; top:0px; left:-260px; z-index:-1;width:260px; display:none;
 background-color:#ddd; border:solid 1px #eee; padding:0px; margin:0px; list-style:none;}
 #dock > li ul.docked { display:block;z-index:-2;overflow:hidden}
 
