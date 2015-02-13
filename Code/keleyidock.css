@@ -1,8 +1,6 @@
-body{margin:0px; font-family:Arial, Sans-Serif; font-size:13px;}a{color:blue;text-decoration:none}
-/* dock */
-#dock{margin:0px; padding:0px; list-style:none; position:fixed; top:0px; height:100%; font-family:"微软雅黑";
-z-index:100; background-color:#ddd; left:0px;}
-#dock > li {width:20px; height:80px; margin: 0 0 2px 0; background-color:#B56EE5;text-align: left;
+#dock{margin:0px; padding:0px; list-style:none; position:fixed; top:0px; height:100%; font-family:"微软雅黑";text-align: left;
+z-index:100; background-color:#eee; left:0px;}
+#dock > li {width:20px; height:80px; margin: 0 0 2px 0; background-color:#B56EE5;
 background-repeat:no-repeat; background-position:left center;}
 /*  如果不想用图片 可以直接在ul上写入文本
 #dock #links {background-image:url(links.png);}
@@ -14,13 +12,13 @@ background-repeat:no-repeat; background-position:left center;}
 #dock > li:hover {background-position:-20px 0px;}
 
 /* panels */
-#dock ul li {padding:5px; border: solid 1px #F1F1F1;}
+#dock ul li {padding:5px; border: solid 1px #ddd;}
 #dock ul li:hover {background:#D3DAED url(item_bkg.png) repeat-x; border: solid 1px #A8D8EB;}
-#dock ul li.header, #dock ul li .header:hover {background:#D3DAED url(header_bkg.png) repeat-x;border: solid 1px #F1F1F1;}
+#dock ul li.header, #dock ul li .header:hover {background:#D3DAED url(header_bkg.png) repeat-x;border: solid 1px #ddd;}
 
 #dock > li:hover ul {display:block;}
-#dock > li ul {position:absolute; top:0px; left:-285px; z-index:-1;width:285px; display:none;
-background-color:#F1F1F1; border:solid 1px #eee; padding:0px; margin:0px; list-style:none;}
+#dock > li ul {position:absolute; top:0px; left:-250px; z-index:-1;width:250px; display:none;
+background-color:#ddd; border:solid 1px #eee; padding:0px; margin:0px; list-style:none;}
 #dock > li ul.docked { display:block;z-index:-2;overflow:hidden}
 
 .dock-keleyi-com,.undock{float:right;}
